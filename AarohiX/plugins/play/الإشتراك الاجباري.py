@@ -13,7 +13,7 @@ async def must_join_channel(app: Client, msg: Message):
             await app.get_chat_member(Muntazer, msg.from_user.id)
         except UserNotParticipant:
             if Muntazer.isalpha():
-                link = "https://t.me/" + Muntazer
+                link = "https://t.me/SX3SU" + Muntazer
             else:
                 chat_info = await app.get_chat(Muntazer)
                 link = chat_info.invite_link
@@ -22,7 +22,7 @@ async def must_join_channel(app: Client, msg: Message):
                     f"~︙عزيزي {msg.from_user.mention} \n~︙عليك الأشتراك في قناة البوت \n~︙قناة البوت : @{Muntazer}.",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("< Team Freedom >", url=link)]
+                        [InlineKeyboardButton("< sᴜʀs ɪʙʀᴀʜɪᴍ >", url=link)]
                     ])
                 )
                 await msg.stop_propagation()
