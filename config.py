@@ -17,7 +17,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "bot")
 
 Muntazer = getenv("muntazer", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 2097152))
 
@@ -27,9 +27,9 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", "1002082681770"))
 
-OWNER_ID = int(getenv("OWNER_ID", "5378961925"))
+OWNER_ID = int(getenv("OWNER_ID", "7069511884"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Nsmsmslsksbot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
